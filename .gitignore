@@ -1,0 +1,40 @@
+# sbt specific files
+target/
+project/target/
+project/project/
+
+# Scala specific files
+*.class
+*.log
+*.cache
+*.settings/
+*.idea
+*.iml
+*.iws
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+lib_managed/
+src_managed/
+.cache/
+.history/
+.classpath
+.project
+.settings/
+.idea/
+*.ipr
+*.bak
+*.swp
+
+
+# sbt specific files
+dist/*
+logs/
+
+# Test and coverage reports
+test-reports/
+coverage/
+
+# Temporary files
+*.tmp
+
